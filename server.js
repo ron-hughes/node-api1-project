@@ -3,6 +3,7 @@ const db = require("./database.js");
 const shortid = require("shortid");
 
 const server = express();
+server.use(cors())
 
 // ALLOWS FOR POST REQUESTS TO HAPPEN, OTHERWISE GET 500 ERROR
 
