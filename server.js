@@ -1,6 +1,7 @@
 const express = require("express");
 const db = require("./database.js");
 const shortid = require("shortid");
+const cors = require("cors");
 
 const server = express();
 server.use(cors())
